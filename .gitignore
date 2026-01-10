@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Pixi environment
+.pixi/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# User data (ratings saved during sessions)
+user_ratings.json
+
+# Pickle files (large data files)
+*.pk
+*.pickle
+
+# Large data/output files (regeneratable)
+rt_output.json
+output_test.json
+
+# Keep scrapy spider output for reference
+# rt_movies/reviews.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
