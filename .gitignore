@@ -16,16 +16,13 @@ env/
 # User data (ratings saved during sessions)
 user_ratings.json
 
-# Pickle files (large data files)
-*.pk
-*.pickle
-
-# Large data/output files (regeneratable)
-rt_output.json
-output_test.json
-
-# Keep scrapy spider output for reference
+# Large files are now tracked with Git LFS (see .gitattributes)
+# If NOT using LFS, uncomment these lines:
+# *.pk
+# *.pickle
+# rt_output.json
 # rt_movies/reviews.json
+# rt_movies/spiders/output_test.json
 
 # IDE
 .idea/

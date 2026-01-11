@@ -1,0 +1,5 @@
+*.pk filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+rt_output.json filter=lfs diff=lfs merge=lfs -text
+rt_movies/reviews.json filter=lfs diff=lfs merge=lfs -text
+rt_movies/output_test.json filter=lfs diff=lfs merge=lfs -text
